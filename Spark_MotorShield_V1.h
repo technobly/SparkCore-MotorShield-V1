@@ -41,18 +41,6 @@
 #ifndef SPARK_MOTORSHIELD_V1_H
 #define SPARK_MOTORSHIELD_V1_H
 
-/* ========================= GLOBAL DEFINES ======================== */
-
-TIM_OCInitTypeDef TIM_OCInitStructure;
-
-// TIM_ARR Calculates period
-uint16_t TIM_ARR = (uint16_t)(24000000 / 500) - 1; // default to 500Hz
-uint16_t TIM1_ARR, TIM2_ARR, TIM3_ARR, TIM4_ARR = TIM_ARR;
-  
-/* ========================= MACROS =============================== */
-
-#define _BV(bit) (1 << (bit))
-
 /* ========================= AFMotor.h ============================ */
 
 // Adafruit Motor v1 shield library
