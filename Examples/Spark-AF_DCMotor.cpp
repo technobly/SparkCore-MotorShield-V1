@@ -7,7 +7,7 @@
  * -------------------------------------------------------
  *  Author: BDub
  * Website: http://technobly.com
- *    Date: Feb 6th 2014
+ *    Date: Apr 10th 2014
  * =======================================================
  * https://github.com/technobly/SparkCore-MotorShield-V1
  */
@@ -40,12 +40,8 @@
 
 /* ========================= INCLUDES ================================= */
 
-#include <application.h>
-
-/* ========================= PROTOTYPE DEFS =========================== */
-
-void initPWM(uint16_t pin, uint16_t pwm_freq);
-void setPWM(uint16_t pin, uint8_t value);
+#include "application.h"
+#include "Spark_MotorShield_V1.h"
 
 /* ========================= APPLICATION.cpp ========================== */
 
